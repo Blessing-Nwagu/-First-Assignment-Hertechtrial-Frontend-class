@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Simple Registration Form</title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+  <body>
+    <h1>A Simple Registration Form</h1>
+   <form>
+        <!--<input type="text">
+        <input type="number">
+        <input type="email">
+        <input type="password">
+        <input type="file">
+        <input type="tel">
+        <input type="search">
+        <input type="date">
+        <input type="submit">
+        <input type="checkbox">
+        <input type="color">-->
+
+
+      <div>
+        <label for="Fullname">Full Name:</label>
+        <input type="text" id="Fullname" placeholder="enter your full name" name="Full name" size="25" required>
+      </div>
+
+      <div>
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" placeholder="Enter your user name" name="Username" size="25" required>
+      </div>
+
+      <div>
+        <label for="Date of birth">Date of Birth:</label>
+        <input type="date" id="date of birth" name="date of birth" required>
+      </div>
+
+      <div>
+        <label for="Email"> Email Address:</label>
+        <input type="Email" id="Email" placeholder="yourname@gmail.com" name="Email" required>
+      </div>
+
+      <div>
+        <label for="file">Upload Documents:</label>
+        <input type="file" id="file" name="file upload" multiple required>
+      </div>
+
+      <div>
+        <label for="Country">Country:</label>
+        <select id="country" name="country">
+          <option value="Australia">Australia</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Canada">Canada</option>
+          <option value="Dominica">Dominica</option>
+          <option value="Egypt">Egypt</option>
+          <option value="France">France</option>
+          <option value="Ghana">Ghana</option>
+          <option value="India">India</option>
+          <option value="Israel">Israel</option>
+          <option value="Japan">Japan</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Libya">Libya</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Oman">Oman</option>
+          <option value="Peru">Peru</option>
+          <option value="Qatar">Qatar</option>
+          <option value="Russia">Russia</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="password">Enter password:</label>
+        <input type="password" id="password" name="password" placeholder="Input strong password" minlength="8" required>
+      </div>
+
+      <div>
+        <label for="terms & conditions">
+          <input type="checkbox" name="checkbox" id="checkbox" value="terms and conditions">
+          By clicking the checkbox, you accept all terms and conditions.
+        </label>
+      </div>
+
+      <div>
+        <label for="submit"></label>
+        <input type="Submit" id="submit" name="submit">
+      </div>
+
+  </form>
+</body>
+</html>
