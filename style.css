@@ -19,7 +19,7 @@ div{
 
 body{
   background-color: rgb(227, 213, 240);
-  background-image: url(image.png);
+  background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken; 
