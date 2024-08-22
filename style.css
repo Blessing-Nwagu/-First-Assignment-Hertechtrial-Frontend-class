@@ -1,0 +1,27 @@
+h1{
+   color:rgb(57, 57, 236);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   padding-top: 15px;
+   font-weight: bolder;
+}
+
+div{
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #fcfbfb;
+  font-weight: bolder;
+}
+
+body{
+  background-color: rgb(227, 213, 240);
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken; 
+}
+
